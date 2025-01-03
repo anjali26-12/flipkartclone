@@ -1,0 +1,191 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #2874f0; /* Flipkart's blue color */
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+#logo {
+    width: 100px; /* Adjust logo size as needed */
+    height: auto;
+    margin-right: 20px;
+    height: 50px; /* Adjust logo spacing */
+}
+
+input[type="text"] {
+    padding: 20px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 0px;
+    margin-left: 130px;
+    width: 330px;
+}
+
+button {
+    background-color: #ff9f00; /* Flipkart's yellow color */
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 300px;
+    height: 55px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 8px;
+}
+
+a:hover {
+    text-decoration: underline;
+    border: #fff;
+    border-style: solid;
+}
+button:hover{
+    text-decoration: underline;
+}
+
+.pannel{
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.box{
+    height: 115px;
+    width: 20%;
+    margin-right: 20px;
+}
+.box img{
+    margin-left: 70px;
+    height: 85px;
+    width: 80px;
+}
+.box h3{
+    margin-left: 65px;
+}
+.box:hover{
+    border: 2px solid black;
+}
+.offer img{
+    height: 390px;
+    width: 100%;
+}
+.offer{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main{
+    height: 220px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mainbox{
+    height: 270px;
+    width: 20%;
+    margin-right: 15px;
+
+}
+.mainbox img{
+    margin-left: 30px;
+    height: 200px;
+    width: 190px;
+}
+
+.mainbox h3{
+    margin-left: 90px;
+}
+.main2{
+    height: 180px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.mainbox2{
+    height: 270px;
+    width: 20%;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+.mainbox2 img{
+    margin-left: 30px;
+    height: 200px;
+    width: 190px;
+    margin-top: 40px;
+}
+.mainbox2 h3{
+    margin-left: 90px;
+}
+.mainbox:hover{
+    border: 1px solid black;
+}
+.mainbox2:hover{
+    border: 1px solid black;
+}
+.footer {
+    background-color: #F2F2F2;
+    padding: 20px 0;
+    color: #333;
+    margin-top: 130px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #000;
+}
+
+
+
+
+
+
