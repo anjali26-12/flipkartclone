@@ -7,145 +7,142 @@
 
 /* Navbar styles */
 .navbar {
-    background-color: #2874f0; /* Flipkart's blue color */
+    background-color: #2874f0;
     color: #fff;
-    padding: 10px;
+    padding: 10px 20px;
     display: flex;
     align-items: center;
-    height: 60px;
+    justify-content: space-between;
+    height: 70px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #logo {
-    width: 100px; /* Adjust logo size as needed */
-    height: auto;
-    margin-right: 20px;
-    height: 50px; /* Adjust logo spacing */
+    width: 100px;
+    height: auto; 
+    max-height: 70px; 
 }
 
+
 input[type="text"] {
-    padding: 20px;
-    border: none;
-    border-radius: 3px;
-    margin-right: 0px;
-    margin-left: 130px;
-    width: 330px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 400px;
+    font-size: 16px;
 }
 
 button {
-    background-color: #ff9f00; /* Flipkart's yellow color */
+    background-color: #ff9f00;
     color: #fff;
     border: none;
-    padding: 8px 15px;
-    border-radius: 3px;
+    padding: 10px 20px;
+    border-radius: 20px;
     cursor: pointer;
-    margin-right: 300px;
-    height: 55px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e68a00;
 }
 
 a {
     color: #fff;
     text-decoration: none;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 8px;
+    margin: 0 15px;
+    padding: 8px 12px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a:hover {
-    text-decoration: underline;
-    border: #fff;
-    border-style: solid;
-}
-button:hover{
-    text-decoration: underline;
+    background-color: #005cbf;
+    border-radius: 5px;
 }
 
-.pannel{
-    height: 120px;
-    background-color: white;
+/* Panel Section */
+.pannel {
+    background-color: #f7f7f7;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 20px;
-}
-.box{
-    height: 115px;
-    width: 20%;
-    margin-right: 20px;
-}
-.box img{
-    margin-left: 70px;
-    height: 85px;
-    width: 80px;
-}
-.box h3{
-    margin-left: 65px;
-}
-.box:hover{
-    border: 2px solid black;
-}
-.offer img{
-    height: 390px;
-    width: 100%;
-}
-.offer{
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-.main{
-    height: 220px;
-    background-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.mainbox{
-    height: 270px;
-    width: 20%;
-    margin-right: 15px;
-
-}
-.mainbox img{
-    margin-left: 30px;
-    height: 200px;
-    width: 190px;
-}
-
-.mainbox h3{
-    margin-left: 90px;
-}
-.main2{
-    height: 180px;
-    background-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 10px;
-}
-.mainbox2{
-    height: 270px;
-    width: 20%;
-    margin-right: 15px;
-    margin-top: 25px;
-}
-.mainbox2 img{
-    margin-left: 30px;
-    height: 200px;
-    width: 190px;
-    margin-top: 40px;
-}
-.mainbox2 h3{
-    margin-left: 90px;
-}
-.mainbox:hover{
-    border: 1px solid black;
-}
-.mainbox2:hover{
-    border: 1px solid black;
-}
-.footer {
-    background-color: #F2F2F2;
     padding: 20px 0;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.box img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.box h3 {
+    font-size: 16px;
+    font-weight: bold;
     color: #333;
-    margin-top: 130px;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Offer Section */
+.offer img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* Main Section */
+.main, .main2 {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mainbox, .mainbox2 {
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.mainbox img, .mainbox2 img {
+    height: 150px;
+    width: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.mainbox h3, .mainbox2 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.mainbox:hover, .mainbox2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    margin-top: 40px;
 }
 
 .footer-container {
@@ -163,29 +160,50 @@ button:hover{
 .footer-section h3 {
     font-size: 18px;
     margin-bottom: 10px;
-    color: #000;
+    color: #fff;
 }
 
 .footer-section ul {
     list-style: none;
-    padding: 0;
 }
 
 .footer-section ul li {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .footer-section ul li a {
-    color: #666;
+    color: #ccc;
     text-decoration: none;
+    font-size: 14px;
 }
 
 .footer-section ul li a:hover {
-    color: #000;
+    color: #fff;
+    text-decoration: underline;
 }
 
+/* Add responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    .pannel, .main, .main2 {
+        flex-wrap: wrap;
+    }
 
+    .box, .mainbox, .mainbox2 {
+        width: 45%;
+        margin-bottom: 20px;
+    }
 
+    input[type="text"] {
+        width: 80%;
+    }
 
-
+    button {
+        width: 80%;
+        margin-top: 10px;
+    }
+}
